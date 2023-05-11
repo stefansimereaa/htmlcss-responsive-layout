@@ -42,7 +42,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
 }
 
@@ -82,9 +82,8 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     gap: 20px;
-    flex-basis: calc(100% / 3 - 20px);
+    flex-basis: calc(100% / 3 - 40px);
 }
 .about-us .col{
     display: flex;
@@ -109,16 +108,15 @@ header{
 .about-us .big-col{
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 820px;
     border-radius: 20px;
-    padding: 0px 0px;
     background-color: var(--card-color);
 }
 
 .big-col .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     gap: 0px;
 }
 
@@ -134,8 +132,8 @@ header{
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    padding: 20px 0px;
-    margin-right: 100px;
+    padding: 30px 10px;
+    margin-right: 250px;
 }
 
 .about-us .btn-blue{
@@ -156,15 +154,24 @@ header{
 
 .about-us .med-col{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 200px;
 }
 
 .med-col img{
     display: block;
-    max-width: 300px;
-    
+    max-width: 280px;
 }
+
+.about-us img{
+    position: relative;
+    top: 15px;
+    right: 80px;
+
+}
+
 
 /* Section Information */
 
@@ -470,6 +477,7 @@ header{
     font-weight: bolder;
     color: var(--Section-color);
     padding: 40px 20px;
+    position: relative;
 }
 
 
@@ -495,8 +503,8 @@ header{
 .our-team .quote-simbol i{
     position: absolute;
     font-size: 80px;
+    right: 20%;
     z-index: 1;
-    right: 21%;
     color: var(--Section-color);
 }
 
@@ -631,3 +639,6 @@ footer .links p{
 footer a{
     color: var(--Section-color);
 }
+
+
+/* RESPONSIVE */
