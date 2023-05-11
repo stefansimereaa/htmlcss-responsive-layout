@@ -1,0 +1,162 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors*/
+:root {
+    --header-color: #0084fd;
+    --card-color: #b5ddff;
+    --Section-color: #9792e4;
+    --free-text: #fdc15f;
+    --footer: #000000 ;
+}
+
+
+/* Generics */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*Utils*/
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header-color);
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    z-index: 1;
+    width: 100%;
+}
+
+.navigation-menu img{
+    display: block;
+}
+
+.navigation-menu ul{
+    list-style-type: none;
+}
+
+.navigation-menu li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.navigation-menu a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+.navigation-menu .btn-white{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Section About us */
+
+.container{
+    margin-top: 200px;
+}
+
+.about-us .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: calc(100% / 3 - 20px);
+}
+.about-us .col{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.about-us h2{
+    color: var(--header-color);
+}
+
+.about-us p{
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+/*About us  Big-col */
+.about-us .big-col{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 20px;
+    padding: 0px 0px;
+    background-color: var(--card-color);
+}
+
+.big-col .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+.about-us .icon{
+    color: var(--header-color);
+    font-size: 80px;
+}
+
+
+/*About us  small-col */
+
+.about-us .small-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 20px 0px;
+    margin-right: 100px;
+}
+
+.about-us .btn-blue{
+    color: white;
+    background-color: var(--header-color);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.about-us a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+/*About us  med-col */
+
+.about-us .med-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.med-col img{
+    display: block;
+    max-width: 300px;
+
+}
