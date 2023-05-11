@@ -29,14 +29,19 @@ body{
 
 /* Header */
 
+header{
+    display: flex;
+    flex-direction: row;
+}
+
 .navigation-menu{
     display: flex;
     flex-direction: row;
     background-color: var(--header-color);
-    padding: 20px 20px;
+    padding: 20px 250px;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
     width: 100%;
 }
@@ -69,7 +74,7 @@ body{
 /* Section About us */
 
 .container{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .about-us .row{
@@ -160,3 +165,81 @@ body{
     max-width: 300px;
 
 }
+
+/* Section Information */
+
+.information .container{
+}
+
+.information{
+    background-color: var(--Section-color);
+}
+
+.information .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    flex-basis: calc(100% / 2 - 40px);
+}
+.information .large-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 50px 0px;
+}
+
+.information .large-col img{
+    max-width: 400px;
+    margin-bottom: 100px;
+}
+
+.information .large-col-content{
+    color: white;
+}
+
+
+.information .small-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+} 
+
+.small-col-content{
+    background-color: white;
+    border-radius: 50px;
+    padding: 100px 0px;
+}
+
+.information img{
+    max-width: 200px;
+}
+
+
+
+.information .large-col h2{
+    color: white;
+    font-size: 30px;
+}
+
+.information p{
+    line-height: 25px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.information a{
+    background-color: var(--Section-color);
+    color: black;
+    width: 50px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
