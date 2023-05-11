@@ -418,3 +418,43 @@ header{
     line-height: 30px;
     margin-bottom: 20px;
 }
+
+
+
+/* Footer */
+footer{
+    background-color: #333333;
+    color: white;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+footer .links p{
+    padding: 0px 10px;
+}
+
+footer a{
+    color: var(--Section-color);
+}
