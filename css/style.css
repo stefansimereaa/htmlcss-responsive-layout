@@ -188,7 +188,7 @@ header{
     margin-bottom: 20px;
 }
 
-.information a{
+.information .btn-violet{
     background-color: var(--Section-color);
     color: black;
     width: 50px;
@@ -333,4 +333,88 @@ header{
 
 .testimonial-content h2{
     font-size: 20px;
+}
+
+/* Section Benefits */
+
+.benefits .container{
+  padding: 50px 0px;
+}
+
+.benefits{
+    background-color: var(--Section-color);
+}
+
+.benefits .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: calc(100% / 3 - 20px);
+}
+
+.benefits .row-title h2{
+    color: white;
+    display: flex;
+    font-size: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.benefits .col{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Benefits content */
+
+.benefits .btn-violet{
+    background-color: var(--Section-color);
+    color: white;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.benefits a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+.benefits .benefits-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.benefits .number-card{
+    padding: 10px 0px;
+    color: var(--Section-color);
+    font-size: 50px;
+}
+
+.benefits h2{
+    padding: 10px 0px;
+    color: var(--Section-color);
+}
+
+.benefits p{
+    padding: 0px;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
