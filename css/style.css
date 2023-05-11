@@ -656,7 +656,14 @@ footer a{
 
 /* RESPONSIVE */
 
+
+
 /* @media screen and (max-width: 1200px) { */
+
+
+
+
+
 
 
 /* MAX WIDTH 768PX */
@@ -834,7 +841,145 @@ footer a{
 /* MAX WIDTH 576PX */
 
 @media screen and (max-width: 576px) {
-    .container {
-      width: 100%;
-  }
+
+    /* Section About us */
+
+    /* Header */
+
+    .button-menu{
+        display: block;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .navigation-menu{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+
+    /* About-us */
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us .row{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .about-us .big-col{
+        width: 90%;
+    }
+
+    .about-us .col:nth-child(2){
+        padding: 80px 20px;
+    }
+
+    .about-us .col{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 80px 20px;
+    }
+
+    /* Section Information */
+
+    .information .large-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        padding: 50px 0px;
+    }
+    
+    .information .large-col-content h2{
+        font-size: 60px;
+    }
+
+    .information .small-col{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .small-col .small-col-content{
+        background-color: white;
+        border-radius: 50px;
+        padding: 80px 50px;
+    }
+
+    .information img{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    /* Section Testimonials */
+
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials .col{
+        width: 400px;
+    }
+
+    .testimonial .col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials .col-title{
+        width: 400px;
+    }
+
+    .testimonials .col-title h2{
+        padding: 10px 0px;
+    }
+
+    .testimonial .testimonial-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-circle{
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        margin-left: 80px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .testimonial img {
+        width: auto;
+        height: 100%;
+        margin-left: -50px;
+    }
+
+    /* Section Benefits */
+
+    .benefits .col{
+        width: 400px;
+    }
+
+    /* Section Our Team */
+
+    .our-team .img-circle{
+        margin-left: 0px;
+    }
+
+    .our-team .small-col{
+        margin-right: 100px;
+    }
 }
