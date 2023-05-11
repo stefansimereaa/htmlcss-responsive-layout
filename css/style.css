@@ -485,10 +485,19 @@ header{
     padding: 10px 10px;
     text-align: center;
     color: white;
+    position: relative;
 }
 
-.our-team i{
+.our-team .btn-violet i{
     margin-right: 10px;
+}
+
+.our-team .quote-simbol i{
+    position: absolute;
+    font-size: 80px;
+    z-index: 1;
+    right: 21%;
+    color: var(--Section-color);
 }
 
 .our-team .small-col p{
@@ -510,6 +519,80 @@ header{
     width: auto;
     height: 100%;
 }
+
+/* Section Start Service */
+
+.start-service{
+    background-color: var(--Section-color);
+}
+
+.start-service .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-service .col{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.start-service h3{
+    color: whitesmoke;
+}
+
+.start-service h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.start-service .title-free{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.start-service .title-free h4{
+    font-weight: normal;
+    padding: 20px 0px;
+}
+
+.start-service p{
+    text-align: center;
+}
+
+.start-service .title-free a{
+    color: white;
+}
+
+.title-free h2{
+    padding: 10px;
+    font-size: 60px;
+    color: var(--free-text);
+}
+
+.start-service .title-free .btn-violet{
+    padding: 20px 60px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: var(--Section-color);
+}
+
+.start-service a{
+    text-decoration: none;
+}
+
 
 /* Footer */
 footer{
